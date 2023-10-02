@@ -15,7 +15,7 @@ export default function FileUploader() {
 
   return (
     <div>
-      <section className="container bg-default-100 hover:bg-default-200 mt-2 w-full font-normal outline-none placeholder:text-foreground-500 text-small py-2 px-3 rounded-medium">
+      <section className="container bg-default-100 hover:bg-default-200 mt-2 w-full font-normal outline-none placeholder:text-foreground-500 text-small py-2 px-3 rounded-medium border-dashed border-2 border-default-400">
         <div
           {...getRootProps({
             className:
